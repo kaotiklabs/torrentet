@@ -4,7 +4,8 @@ beige = #F9F2E7
 dark-gray = #333
 gray = #777
 green = #8FBE00
-light-blue = #40C0CB
+blue = #3188CA
+light-blue = #8BF4EA
 light-gray = #EEE
 light-green = #AEE239
 light-red = #E23430
@@ -22,8 +23,8 @@ global-reset()
 html, body { height: 100% }
 
 h1 {
-    color: red;
-    font: bold 56px/64px "Lobster Two", sans-serif;
+    color: blue;
+    font: bold 88px/96px "Lobster Two", sans-serif;
     text-align: center;
     margin: 0 0 10px;
 }
@@ -123,8 +124,8 @@ p {
 .spinner {
     position: relative
     z-index: -1
-    width: 300px
-    height: 300px
+    width: 400px
+    height: 400px
     margin: 0 auto 20px
 
     display: flex
@@ -133,8 +134,8 @@ p {
 
     .spinner-background {
         display: block
-        width: 300px
-        height: 300px
+        width: 400px
+        height: 400px
         position: absolute
         top: 0
         left: 0
@@ -148,7 +149,7 @@ p {
 
     .spinner-image {
         display: block
-        width: 150px
+        width: 120px
         margin: 0 auto
     }
 
@@ -175,7 +176,7 @@ p {
 }
 
 .tempalink {
-    background: beige
+    background: light-blue
     color: dark-gray
     border: 0
     margin: 20px 0
@@ -252,14 +253,14 @@ p {
     }
 
     &.progress-bar-in-progress {
-        background: beige
+        background: light-blue
         .progress-bar-inner {
-            background: #FFCC00
-            box-shadow: inset 0 1px 1px light-yellow
+            background: blue
+            box-shadow: inset 0 1px 1px blue
         }
 
         .progress-bar-text {
-            color: black
+            color: white
             float: right
             margin-right: 5px
         }
